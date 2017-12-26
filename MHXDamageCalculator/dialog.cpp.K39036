@@ -1,0 +1,93 @@
+#include "dialog.h"
+#include "ui_dialog.h"
+#include "csvreader.h"
+#include <vector>
+#include <iterator>
+#include <QtCore>
+#include <QtWidgets>
+
+Dialog::Dialog(QWidget *parent) :
+    QDialog(parent),
+    ui(new Ui::Dialog)
+{
+    ui->setupUi(this);
+    weaponPath = "C:/Users/Nathan Thomas/workspace/Project/MHXDamageCalculator/Weapons/Greatsword.csv";
+
+    initWeapons();
+    initAttributes();
+    initTable(weaponPath);
+}
+
+Dialog::~Dialog()
+{
+    delete ui;
+}
+
+void Dialog::initWeapons()
+{
+    QString wep[] = {"Greatsword", "Longsword", "Sword & Shield",
+                     "Dual Blades", "Hammer", "Hunting Horn", "Lance", "Gunlance",
+                     "Switch Axe", "Insect Glaive", "Charge Blade"};
+    for (int i = 0; i < 11; i++){
+        ui->comboBox->addItem(wep[i]);
+    }
+}
+
+void Dialog::initAttributes()
+{
+    QStringList list;
+    list.push_back("Weapon");
+    list.push_back("Attack");
+    list.push_back("Element");
+    list.push_back("Elem.Atk");
+    list.push_back("Affinity");
+    list.push_back("Sharpness");
+    list.push_back("+1");
+    list.push_back("+2");
+
+    ui->tableWidget->setColumnCount(8);
+    ui->tableWidget->setHorizontalHeaderLabels(list);
+}
+
+void Dialog::initTable(std::string filename)
+{
+    CSVReader csv (filename);
+    ui->tableWidget->setRowCount(0);
+    ui->tableWidget->setColumnCount(8);
+    int rowCount = 0;
+    while (!csv.eof()){
+        ui->tableWidget->setRowCount(ui->tableWidget->rowCount() + 1);
+        std::vector<std::string> row = csv.read();
+        int columnCount = 0;
+        for (std::vector<std::string>::iterator itr = row.begin(); itr != row.end(); ++itr){
+            QTableWidgetItem *itm = new QTableWidgetItem(QString::fromStdString(*itr));
+
+            if (*itr == "R"){
+                itm->setBackgroundColor(Qt::red);
+            } else if (*itr == "O"){
+                itm->setBackgroundColor(Qt::gray);
+            } else if (*itr == "Y"){
+                itm->setBackgroundColor(Qt::yellow);
+            } else if (*itr == "G"){
+                itm->setBackgroundColor(Qt::green);
+            } else if (*itr == "B"){
+                itm->setBackgroundColor(Qt::blue);
+            } else if (*itr == "W"){
+                itm->setBackgroundColor(Qt::white);
+            } else {
+                itm->setBackgroundColor(Qt::gray);
+            }
+
+            ui->tableWidget->setItem(rowCount, columnCount, itm);
+            columnCount++;
+        }
+        rowCount++;
+    }
+    ui->tableWidget->setRowCount(ui->tableWidget->rowCount() - 1);
+}
+
+void Dialog::on_comboBox_activated(const QString &arg1)
+{
+    std::string path = "C:/Users/Nathan Thomas/workspace/Project/MHXDamageCalculator/Weapons/" + arg1.toStdString() + ".csv";
+    initTable(path);
+}

@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<modifiers>
+
+	<mod>
+		<name>PowerCharm</name>
+		<description>An amulet that raises Attack. Just carrying this gives you demonic strength.</description>
+		<add>6</add>
+		<multiply>1</multiply>
+		<affinity>0</affinity>
+	</mod>
+	<mod>
+		<name>PowerTalon</name>
+		<description>A powerful amulet that raises Attack. Made with a Deviljho Talon.</description>
+		<add>9</add>
+		<multiply>1</multiply>
+		<affinity>0</affinity>
+	</mod>
+	<mod>
+		<name>Demondrug</name>
+		<description>Boosts your Attack by filling you with -- guess what? -- demonic strength.</description>
+		<add>5</add>
+		<multiply>1</multiply>
+		<affinity>0</affinity>
+	</mod>
+	<mod>
+		<name>Mega Demondrug</name>
+		<description>Boosts your Attack even more than a regular Demondrug.</description>
+		<add>7</add>
+		<multiply>1</multiply>
+		<affinity>0</affinity>
+	</mod>
+		<mod>
+		<name>Attack Up (S) MEAL</name>
+		<description></description>
+		<add>3</add>
+		<multiply>1</multiply>
+		<affinity>0</affinity>
+	</mod>
+	<mod>
+		<name>Attack Up (M) MEAL</name>
+		<description></description>
+		<add>5</add>
+		<multiply>1</multiply>
+		<affinity>0</affinity>
+	</mod>
+		<mod>
+		<name>Attack Up (L) MEAL</name>
+		<description></description>
+		<add>7</add>
+		<multiply>1</multiply>
+		<affinity>0</affinity>
+	</mod>
+	<mod>
+		<name>Might Seed</name>
+		<description>Temporarily raises your Attack when ingested by improving energy flow.</description>
+		<add>10</add>
+		<multiply>1</multiply>
+		<affinity>0</affinity>
+	</mod>
+	<mod>
+		<name>Might Pill</name>
+		<description>Temporarily endows you with the strength of a mighty god. Potent!</description>
+		<add>25</add>
+		<multiply>1</multiply>
+		<affinity>0</affinity>
+	</mod>
+	<mod>
+		<name>Exciteshroom (Mycology)</name>
+		<description>Skills that allow consumption of mushrooms and grant certain benefits as a result.</description>
+		<add>10</add>
+		<multiply>1</multiply>
+		<affinity>0</affinity>
+	</mod>
+	<mod>
+		<name>Demon Horn</name>
+		<description>Increases the strength of those who hear it. May break when used</description>
+		<add>10</add>
+		<multiply>1</multiply>
+		<affinity>0</affinity>
+	</mod>
+	<mod>
+		<name>Demon S</name>
+		<description>Said to bestow the strength of Asura on the target. Max 5 shots.</description>
+		<add>10</add>
+		<multiply>1</multiply>
+		<affinity>0</affinity>
+	</mod>
+	<mod>
+		<name>Demon Affinity S</name>
+		<description>Boosts ally's attack and affinity</description>
+		<add>15</add>
+		<multiply>1</multiply>
+		<affinity>10</affinity>
+	</mod>
+	<mod>
+		<name>Cool Cat</name>
+		<description>Activated when using Kick Back Gesture</description>
+		<add>15</add>
+		<multiply>1</multiply>
+		<affinity>0</affinity>
+	</mod>
+	<mod>
+		<name>Felyne Booster</name>
+		<description>Temporarily increase Attack and Defense at the start of a Quest.</description>
+		<add>3</add>
+		<multiply>1</multiply>
+		<affinity>0</affinity>
+	</mod>
+	<mod>
+		<name>Attack Up (S)</name>
+		<description>Slightly increase Attack.</description>
+		<add>10</add>
+		<multiply>1</multiply>
+		<affinity>0</affinity>
+	</mod>
+	<mod>
+		<name>Attack Up (M)</name>
+		<description>Increases Attack.</description>
+		<add>15</add>
+		<multiply>1</multiply>
+		<affinity>0</affinity>
+	</mod>
+	<mod>
+		<name>Attack Up (L)</name>
+		<description>Greatly increases Attack.</description>
+		<add>20</add>
+		<multiply>1</multiply>
+		<affinity>0</affinity>
+	</mod>
+	<mod>
+		<name>Adrenaline +2</name>
+		<description>Increases the strength of those who hear it. May break when used</description>
+		<add>0</add>
+		<multiply>1.30</multiply>
+		<affinity>0</affinity>
+	</mod>
+	<mod>
+		<name>Felyne Heroics</name>
+		<description>Greatly increases attack when health is very low.</description>
+		<add>0</add>
+		<multiply>1.35</multiply>
+		<affinity>0</affinity>
+	</mod>
+	<mod>
+		<name>Attack Up (S) Horn</name>
+		<description></description>
+		<add>0</add>
+		<multiply>1.15</multiply>
+		<affinity>0</affinity>
+	</mod>
+	<mod>
+		<name>Attack Up (L) Horn</name>
+		<description></description>
+		<add>0</add>
+		<multiply>1.20</multiply>
+		<affinity>0</affinity>
+	</mod>
+	<mod>
+		<name>Fortify 1</name>
+		<description>Increases your Attack and Defense every time you fall in battle.(10%)</description>
+		<add>0</add>
+		<multiply>1.10</multiply>
+		<affinity>0</affinity>
+	</mod>
+	<mod>
+		<name>Fortify 2</name>
+		<description>Increases your Attack and Defense every time you fall in battle.(20%)</description>
+		<add>0</add>
+		<multiply>1.20</multiply>
+		<affinity>0</affinity>
+	</mod>
+	<mod>
+		<name>Challenger +1</name>
+		<description>Empowers you for a limited time when certain conditions are met.</description>
+		<add>10</add>
+		<multiply>1</multiply>
+		<affinity>10</affinity>
+	</mod>
+	<mod>
+		<name>Challenger +2</name>
+		<description>Greatly increases Attack and Affinity when a large monster in the same area becomes angry.</description>
+		<add>20</add>
+		<multiply>1</multiply>
+		<affinity>15</affinity>
+	</mod>
+	<mod>
+		<name>Polar Hunter 1</name>
+		<description>Powers you up in the cold. If you drink a Cool Drink...</description>
+		<add>5</add>
+		<multiply>1</multiply>
+		<affinity>0</affinity>
+	</mod>
+	<mod>
+		<name>Polar Hunter 2</name>
+		<description>Powers you up in the cold. If you drink a Cool Drink...</description>
+		<add>15</add>
+		<multiply>1</multiply>
+		<affinity>0</affinity>
+	</mod>
+	<mod>
+		<name>Polar Hunter 3</name>
+		<description>Powers you up in the cold. If you drink a Cool Drink...</description>
+		<add>20</add>
+		<multiply>1</multiply>
+		<affinity>0</affinity>
+	</mod>
+	<mod>
+		<name>Tropic Hunter</name>
+		<description>Powers you up in the heat. If you drink a Hot Drink...</description>
+		<add>15</add>
+		<multiply>1</multiply>
+		<affinity>0</affinity>
+	</mod>
+	<mod>
+		<name>Resuscitate</name>
+		<description>Increases Attack when you are suffering from abnormal status.</description>
+		<add>20</add>
+		<multiply>1</multiply>
+		<affinity>0</affinity>
+	</mod>
+	<mod>
+		<name>Furor</name>
+		<description>Increases Attack when your Health Gauge is in the red.</description>
+		<add>20</add>
+		<multiply>1</multiply>
+		<affinity>0</affinity>
+	</mod>
+	<mod>
+		<name>Repeat Offender</name>
+		<description>Increases Affinity following repeated attacks.</description>
+		<add>0</add>
+		<multiply>1</multiply>
+		<affinity>30</affinity>
+	</mod>
+	<mod>
+		<name>Weakness Exploit</name>
+		<description>Increases Affinity when striking body parts your attacks are highly effective against.</description>
+		<add>0</add>
+		<multiply>1</multiply>
+		<affinity>50</affinity>
+	</mod>
+	<mod>
+		<name>Critical Eye +1</name>
+		<description>Increases Affinity by 10%.</description>
+		<add>0</add>
+		<multiply>1</multiply>
+		<affinity>10</affinity>
+	</mod>
+	<mod>
+		<name>Critical Eye +2</name>
+		<description>Increases Affinity by 20%.</description>
+		<add>0</add>
+		<multiply>1</multiply>
+		<affinity>20</affinity>
+	</mod>
+	<mod>
+		<name>Critical Eye +3</name>
+		<description>Increases Affinity by 30%.</description>
+		<add>0</add>
+		<multiply>1</multiply>
+		<affinity>30</affinity>
+	</mod>
+	<mod>
+		<name>Elemental Atk Up</name>
+		<description>Increases the power of elemental attacks.</description>
+		<add>0</add>
+		<multiply>1</multiply>
+		<affinity>0</affinity>
+	</mod>
+	<mod>
+		<name>Critical Boost</name>
+		<description>Increases the damage of critical hits.</description>
+		<add>0</add>
+		<multiply>1</multiply>
+		<affinity>0</affinity>
+	</mod>
+	<mod>
+		<name>Crit Element</name>
+		<description>Increases elemental damage (Fire, Water, Thunder, Ice, Dragon) of your critical hits.</description>
+		<add>0</add>
+		<multiply>1</multiply>
+		<affinity>0</affinity>
+	</mod>
+	<mod>
+		<name>Bludgeoner</name>
+		<description>Increases Attack based on how low the Sharpness of your weapon is.</description>
+		<add>0</add>
+		<multiply>1</multiply>
+		<affinity>0</affinity>
+	</mod>
+	
+</modifiers>
